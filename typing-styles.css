@@ -51,7 +51,7 @@ FROM https://dev.to/alvaromontoro/multiline-css-only-typewriter-effect-18p4
 
 .typewriter {
   --bgColor: rgb(37, 21, 21);
-  --lines: 500;
+  --lines: 55;
   --lineHeight: 1rem;
   --timePerLine: 1s;
   --widthCh: 22;
@@ -60,7 +60,7 @@ FROM https://dev.to/alvaromontoro/multiline-css-only-typewriter-effect-18p4
   --time: calc(var(--lines) * var(--timePerLine));
   animation: grow var(--time) steps(var(--lines));
   animation-iteration-count: infinite;
-  animation-fill-mode: none;
+  animation-fill-mode: forward;
   background: var(--bgColor);  
   line-height: var(--lineHeight);
   max-height: var(--lineHeight);
