@@ -1,0 +1,45 @@
+body{
+  background: rgb(37, 21, 21);
+  font-family: 'Courier New', Courier, monospace; 
+  color: antiquewhite;
+  margin: none;
+  padding: none;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: antiquewhite;
+}
+header {
+  margin-top: 3rem;
+}
+h1, h2 {
+  text-align: center;
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+}
