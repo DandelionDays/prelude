@@ -2,8 +2,6 @@ body{
   background: rgb(37, 21, 21);
   font-family: 'Courier New', Courier, monospace; 
   color: antiquewhite;
-  margin: none;
-  padding: none;
   line-height: 1;
   display: flex;
   flex-direction: column;
@@ -12,6 +10,7 @@ body{
 
 main {
   flex: 1;
+  max-height: 85vh;
 }
 
 footer {
@@ -21,25 +20,45 @@ footer {
 a {
   color: antiquewhite;
 }
+
 header {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 h1, h2 {
   text-align: center;
 }
 
-li {
+ul {
+  width: 25ch;
   margin-left: auto;
   margin-right: auto;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
 }
 
 article {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+/*
+--------------------
+FONT DISPLAY CLASSES
+--------------------
+*/
+.italics {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center;
+}
+.bold {
+  font-weight: bolder;
+}
+
+

@@ -1,6 +1,6 @@
 /* 
 ---------------------------------------------------------------------------
-FROM https://dev.to/alvaromontoro/multiline-css-only-typewriter-effect-18p4 
+METHOD ADAPTED FROM https://dev.to/alvaromontoro/multiline-css-only-typewriter-effect-18p4 
 ---------------------------------------------------------------------------
 */
 
@@ -35,14 +35,13 @@ FROM https://dev.to/alvaromontoro/multiline-css-only-typewriter-effect-18p4
   --time: calc(var(--lines) * var(--timePerLine));
   animation: grow var(--time) steps(var(--lines));
   animation-iteration-count: infinite;
-  animation-fill-mode: forward;
+  animation-fill-mode: forwards;
   background: var(--bgColor);  
   line-height: var(--lineHeight);
   max-height: var(--lineHeight);
   overflow: hidden;
   position: relative;
   width: var(--width);
-  /* word-break: break-all; */
 }
 
 .typewriter::before {
